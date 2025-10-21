@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Premium Ultrabook",
+    "if": [
+      "budget_high",
+      "portable",
+      "long_battery"
+    ],
+    "then": "recommend:premium_ultrabook",
+    "priority": 5
+  },
+  {
+    "name": "Budget Ultrabook",
+    "if": [
+      "budget_low",
+      "portable",
+      "office_only"
+    ],
+    "then": "recommend:budget_ultrabook",
+    "priority": 4
+  },
+  {
+    "name": "Midrange Gaming Laptop",
+    "if": [
+      "budget_medium",
+      "gaming"
+    ],
+    "then": "recommend:midrange_gaming_laptop",
+    "priority": 3
+  },
+  {
+    "name": "High-End Gaming Laptop",
+    "if": [
+      "budget_high",
+      "gaming"
+    ],
+    "then": "recommend:highend_gaming_laptop",
+    "priority": 5
+  },
+  {
+    "name": "16+ Ram",
+    "if": [
+      "creative_work",
+      "portable"
+    ],
+    "then": "spec:ram_16_plus",
+    "priority": 4
+  },
+  {
+    "name": "15+ Color Accuracy",
+    "if": [
+      "creative_work",
+      "large_screen"
+    ],
+    "then": "spec:display_15_plus_color_accurate",
+    "priority": 4
+  },
+  {
+    "name": "60wh+ Battery",
+    "if": [
+      "long_battery",
+      "travel_often"
+    ],
+    "then": "spec:battery_60wh_plus",
+    "priority": 4
+  },
+  {
+    "name": "Mac OS",
+    "if": [
+      "pref_os_macos"
+    ],
+    "then": "spec:macos_required",
+    "priority": 4
+  },
+  {
+    "name": "AI Acceleration",
+    "if": [
+      "needs_ai_accel"
+    ],
+    "then": "spec:gpu_with_tensor_cores",
+    "priority": 4
+  },
+  {
+    "name": "Linux Friendly",
+    "if": [ 
+      "pref_os_linux",
+      "office_only"
+    ],
+    "then": "spec:linux_friendly_hw",
+    "priority": 3
+  }
+]
