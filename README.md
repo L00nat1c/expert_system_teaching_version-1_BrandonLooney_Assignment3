@@ -63,4 +63,17 @@ Is your budget high? (y/n): y
 # Report
 
 I have completed the missing parts of the code and it should run like the given example. <br>
+I used Visual Studio Code to edit the files for this assignment. <br>
+To run the code, I went to the main.py file, and ran the code using the built-in terminal.<br>
+A user will need to enter 13 different inputs isntead of 3 now. And there are now 10 different rules in the laptop_rules.json file. <br>
+There are brief comments in the code to explain what each section is supposed to do. <br>
+<br>
+
 I have a testing.py file with at least five example tests with their expected inputs and output. They will not run like the expected output example, but it will run the five tests and will show whether they failed or if they are "OK". <br>
+<br>
+To run the testing.py file, you must input the following command in the terminal.
+```
+python -m unittest tests/testing.py
+```
+
+<br>
