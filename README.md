@@ -69,6 +69,7 @@ A user will need to enter 13 different inputs isntead of 3 now. And there are no
 There are brief comments in the code to explain what each section is supposed to do. <br>
 <br>
 I have a testing.py file with at least five example tests with their expected inputs and output. They will not run like the expected output example, but it will run the five tests and will show whether they failed or if they are "OK". <br>
+Each test in the testing.py file has a brief comment and shows the antecedents and consequence.<br>
 <br>
 To run the testing.py file, you must input the following command in the terminal.
 ```
