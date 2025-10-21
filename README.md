@@ -58,3 +58,9 @@ Is your budget high? (y/n): y
 | Report / explanation clarity | 10 |
 
 ---
+
+
+# Report
+
+I have completed the missing parts of the code and it should run like the given example. <br>
+I have a testing.py file with at least five example tests with their expected inputs and output. They will not run like the expected output example, but it will run the five tests and will show whether they failed or if they are "OK". <br>
